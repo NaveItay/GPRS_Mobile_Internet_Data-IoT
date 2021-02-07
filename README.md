@@ -22,8 +22,8 @@ Live data streams to ThingSpeak cloud (Arduino & SIM900)
 >   #      
 >   ```  
 >           
->      float h = dht.readHumidity();			// Achieving humidity value
->      float t = dht.readTemperature(); 		// Achieving temperature value
+>      float h = dht.readHumidity();    // Achieving humidity value
+>      float t = dht.readTemperature(); // Achieving temperature value
 >      delay(100);   
 >         
 >      Serial.print("Temperature = ");
@@ -38,7 +38,7 @@ Live data streams to ThingSpeak cloud (Arduino & SIM900)
 >      if (gprsSerial.available())
 >        Serial.write(gprsSerial.read());
 >     
->      gprsSerial.println("AT");				// Handshake test
+>      gprsSerial.println("AT");			  	// Handshake test
 >      delay(1000);
 >     
 >      gprsSerial.println("AT+CPIN?");		// sets the password of the mobile device
@@ -50,10 +50,10 @@ Live data streams to ThingSpeak cloud (Arduino & SIM900)
 >      gprsSerial.println("AT+CGATT?");		// used to attach or detach the device to packet domain service.
 >      delay(1000);
 >     
->      gprsSerial.println("AT+CIPSHUT");		// will close the GPRS PDP context.
+>      gprsSerial.println("AT+CIPSHUT");	// will close the GPRS PDP context.
 >      delay(1000);
 >     
->      gprsSerial.println("AT+CIPSTATUS");	// returns the current connection status. This command returns the applicable server status, client status, conenction number (for multi-ip) and GPRS bearer info.
+>      gprsSerial.println("AT+CIPSTATUS");// returns the current connection status. This command returns the applicable server status, client status, conenction number (for multi-ip) and GPRS bearer info.
 >      delay(2000);
 >     
 >      gprsSerial.println("AT+CIPMUX=0");	// used to start a multi-IP connection.
