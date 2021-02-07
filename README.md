@@ -1,2 +1,2 @@
-# GPRS_Mobile_Internet_Data (IoT)
+# GPRS Mobile Internet Data (IoT)
 Live data streams to thingspeak cloud (Arduino & SIM900)
