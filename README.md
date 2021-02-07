@@ -18,8 +18,10 @@ Live data streams to thingspeak cloud (Arduino & SIM900)
 
 #
 ###### Code
-> * Explanation of AT commands from [m2msupport.net](https://m2msupport.net/m2msupport/atcipsprt-set-prompt-of-when-module-sends-data/).   
->      
+> * # Explanation of AT commands from [m2msupport.net](https://m2msupport.net/m2msupport/atcipsprt-set-prompt-of-when-module-sends-data/).   
+>    
+>       
+>       
 >      float h = dht.readHumidity();			// Achieving humidity value
 >      float t = dht.readTemperature(); 		// Achieving temperature value
 >      delay(100);   
