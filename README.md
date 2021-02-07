@@ -109,5 +109,5 @@ Live data streams to ThingSpeak cloud (Arduino & SIM900)
 >   ```    
 
 # 
-###### Receive your data to ThingSpeak cloud from your device
+###### Receive your data to ThingSpeak cloud from your device.
 > ![title](/images/ThingSpeak_Cloud.PNG)
