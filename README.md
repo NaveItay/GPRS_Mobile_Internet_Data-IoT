@@ -1,5 +1,5 @@
 # GPRS Mobile Internet Data (IoT)
-Live data streams to thingspeak cloud (Arduino & SIM900)
+Live data streams to ThingSpeak cloud (Arduino & SIM900)
 
 ![title](/images/Circuit_Diagram.PNG)
 
