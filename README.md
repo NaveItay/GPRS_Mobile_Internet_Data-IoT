@@ -20,7 +20,7 @@ Live data streams to ThingSpeak cloud (Arduino & SIM900)
 ###### Code
 > * ###### Explanation of AT commands from [m2msupport.net](https://m2msupport.net/m2msupport/atcipsprt-set-prompt-of-when-module-sends-data/).   
 >   #      
->       
+>   ```  
 >           
 >      float h = dht.readHumidity();			// Achieving humidity value
 >      float t = dht.readTemperature(); 		// Achieving temperature value
@@ -106,8 +106,7 @@ Live data streams to ThingSpeak cloud (Arduino & SIM900)
 >      gprsSerial.println("AT+CIPSHUT");	// Close the connection
 >      delay(100);
 >      ShowSerialData(); 
->      
->
+>   ```    
 
 # 
 ###### Receive your data to ThingSpeak from your device
