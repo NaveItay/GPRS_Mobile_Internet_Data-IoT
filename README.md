@@ -16,6 +16,7 @@ Live data streams to thingspeak cloud (Arduino & SIM900)
 >  
 > ![title](/images/arduinoSim900.PNG)
 
+#
 ###### Code
   * Explanation of AT commands from [m2msupport.net](https://m2msupport.net/m2msupport/atcipsprt-set-prompt-of-when-module-sends-data/).   
 >      
@@ -106,3 +107,9 @@ Live data streams to thingspeak cloud (Arduino & SIM900)
 >      
 >
 
+# 
+###### Receive live data to the cloud
+> Receive your data to ThingSpeak from your device.
+> 
+>  
+> ![title](/images/ThingSpeak_Cloud.PNG)
